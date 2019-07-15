@@ -281,27 +281,31 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   width: 200px; /* auto; */
 }
 
-
+/* 랩탑 및 PC용 헤더 */
 .header-outer {
   display: block;
   height: 92px;
 }
 .con-header {
   padding: 0px;
+  height: 92px;
 }
-
+/* 헤더 로고 */
 .header-title {
   margin: 0px;
+  padding: 0px !important;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: -3px;
-  /*font-size*/
+  /*font-size: 35px;*/
+  /*line-height: 92px;*/
 }
-.header-title span {
+.header-title a span {
   font-weight: 700;
 }
 .header-title a {
   color: #000 !important;
   text-decoration: none;
+  /*background-image: url(../img/red2mtnk_large.png);*/
 }
 .header-title a:hover,
 .header-title a:focus {
