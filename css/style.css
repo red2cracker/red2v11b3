@@ -1,0 +1,286 @@
+/*
+.content h1 {
+  color: red;
+}
+*/
+
+/*
+.search-toggle:hover {
+  color: red;
+}
+*/
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v16-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v16-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('../fonts/open-sans-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v16-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v16-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v16-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v16-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/open-sans-v16-latin-800.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+       url('../fonts/open-sans-v16-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v16-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v16-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v16-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v16-latin-800.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
+
+body {
+  /* padding-top: 50px; */ /* 고정 메뉴 70px */
+}
+
+.header {
+  /* position: relative; */
+}
+
+
+.navbar {
+  border: 0px;
+}
+
+/* SVG는 버그가 많아서 PNG 사용 */
+.navbar-brand {
+  background-image: url("../img/red2mtnk_small_sharp02.png");
+  background-repeat: no-repeat;
+  padding-left: 65px; /* 70px */
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -1px;
+  /* font-size: 18px !important; */
+}
+.navbar-brand span {
+  font-weight: 700;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff !important;
+  text-decoration: none;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #f00 !important;
+  text-decoration: none;
+}
+
+/*
+.navbar-brand span {
+  font-weight: bold;
+}
+*/
+
+/*
+.navbar-brand:focus {
+  border: 1px dashed #000;
+}
+*/
+
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+}
+
+/*
+.test-box {
+  position: absolute;
+  top: 51px;
+  left: 0px;
+}
+*/
+
+
+.con-content {
+  background-color: #f8f8f8;
+}
+
+/*
+.cse-search-box * {
+  box-sizing: content-box;
+}
+*/
+
+.cse-search-box {
+
+}
+
+.navbar-form .cse-keyword {
+  display: inline-block;
+  width: 200px; /* auto; */
+}
+
+.navbar-form .cse-search-button {
+  display: inline-block;
+}
+
+/*
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: red;
+}
+*/
+
+.cse-keyword {
+  border-radius: 0px;
+  padding: 6px 6px;
+}
+.cse-search-button {
+  border-radius: 0px;
+  color: #fff;
+  background-color: #2567FC;
+  border-color: #2567FC;
+}
+.cse-search-button:hover,
+.cse-search-button:focus,
+.cse-search-button:active {
+  color: #f00 !important;
+  background-color: #2550fc !important;
+  border-color: #2550fc;
+}
+
+
+
+/* .icon-bar Start */
+/* https://julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle/ */
+
+/*
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+*/
+
+/* .icon-bar End */
+
+.footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+.footer .list-inline {
+  margin-top: 10px;
+}
+
+.footer .list-inline a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.footer .list-inline a:hover,
+.footer .list-inline a:focus {
+  color: #f00;
+  text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+
+/* 모바일 검색창 아래로 내려가는 버그 */
+.cse-keyword {
+  position: relative;
+  top: 1px;
+}
+
+
+}
+
+
+@media (min-width: 768px) {
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+}
+.navbar-nav a:hover {
+  /*color: #f00 !important;*/
+  background-color: #ccc !important;
+}
+.dropdown:hover .dropdown-toggle {
+  color: #333;
+  background-color: #ccc;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+    /* margin: 0; */
+}
+
+.navbar-form {
+  padding: 0px;
+}
+.navbar-form .form-control {
+  width: 120px;
+}
+
+}
+
+
+@media (min-width: 992px) {
+
+.navbar-form .form-control {
+  width: 200px; /* auto; */
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+
