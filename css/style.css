@@ -281,8 +281,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   width: 200px; /* auto; */
 }
 
+
 .header-outer {
   display: block;
+  height: 92px;
 }
 .con-header {
   padding: 0px;
@@ -292,6 +294,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: -3px;
+  /*font-size*/
 }
 .header-title span {
   font-weight: 700;
