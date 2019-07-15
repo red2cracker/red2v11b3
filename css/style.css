@@ -220,6 +220,11 @@ body {
 }
 
 
+.header-outer {
+  display: none;
+}
+
+
 @media (max-width: 767px) {
 
 /* 모바일 검색창 아래로 내려가는 버그 */
@@ -275,6 +280,25 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .navbar-form .form-control {
   width: 200px; /* auto; */
 }
+
+.header-outer {
+  display: block;
+}
+
+.con-header {
+  padding: 0px;
+}
+
+.header-title {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -3px;
+}
+
+.header-title span {
+  font-weight: 700;
+}
+
 
 }
 
