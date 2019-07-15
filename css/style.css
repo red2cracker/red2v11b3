@@ -305,7 +305,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .header-title a {
   color: #000 !important;
   text-decoration: none;
-  /*background-image: url(../img/red2mtnk_large.png);*/
+  height: 92px;
+  line-height: 92px;
+  /*padding-top: 25px;*/
+  /*padding-bottom: 10px !important;*/
+  padding-left: 102px;
+  padding-right: 15px;
+  background-image: url(../img/red2mtnk_large.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  /*border: 1px solid #f00;*/
 }
 .header-title a:hover,
 .header-title a:focus {
