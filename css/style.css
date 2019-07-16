@@ -249,7 +249,7 @@ body {
 }
 .navbar-nav a:hover {
   /*color: #f00 !important;*/
-  /*background-color: #2f3439 !important;*/ /*#ccc*/
+  background-color: #2f3439 !important; /*#ccc*/
   color: #f00 !important;
 }
 .dropdown:hover .dropdown-toggle {
@@ -259,6 +259,10 @@ body {
 .dropdown-menu > li > a {
   padding: 7px 20px;
 }
+.dropdown-menu > li > a:hover {
+  background-color: #e5e5e5 !important;
+}
+
 
 
 .navbar-inverse .navbar-nav > li > a {
