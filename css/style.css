@@ -243,17 +243,23 @@ body {
   border-radius: 0px;
 }
 
+
 .navbar-nav a {
   font-weight: bold;
 }
 .navbar-nav a:hover {
   /*color: #f00 !important;*/
-  background-color: #ccc !important;
+  /*background-color: #2f3439 !important;*/ /*#ccc*/
+  color: #f00 !important;
 }
 .dropdown:hover .dropdown-toggle {
-  color: #333;
-  background-color: #ccc;
+  color: #f00; /*#333;*/
+  background-color: #2f3439; /*#ccc*/
 }
+.dropdown-menu > li > a {
+  padding: 7px 20px;
+}
+
 
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
