@@ -346,6 +346,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .con-header {
   padding: 0px;
   height: 92px;
+  background-image: url(../img/main_image.png);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 /* 헤더 로고 */
 .header-title {
