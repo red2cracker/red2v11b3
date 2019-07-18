@@ -167,8 +167,8 @@ body {
   margin-right: 0px;
   margin-left: 0px;
 }
-.con-row .row > .col-md-9,
-.con-row .row > .col-md-3 {
+.con-row .row > div,
+.con-row .row > aside {
   padding-right: 0px;
   padding-left: 0px;
 }
