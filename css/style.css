@@ -375,6 +375,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* 태블릿부터 사이드바는 왼쪽, 콘텐츠는 오른쪽 */
 .con-row .row > .col-content {
   float: right;
+  padding-left: 15px;
 }
 .con-row .row > .col-sidebar {
   float: left;
