@@ -174,6 +174,37 @@ body {
 }
 
 
+/* 로컬 네비게이션 */
+.nav-local h2 {
+  margin: 0px;
+  padding: 6px;
+  font-weight: bolder;
+  background-color: #0081f3;
+  color: #fff;
+}
+.nav-local ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #666;
+}
+.nav-local ul a {
+  color: #fff;
+  display: block;
+  padding: 6px;
+  font-size: 16px;
+}
+.nav-local ul a:hover,
+.nav-local ul a:focus,
+.nav-local ul a:active {
+  color: #f00;
+  text-decoration: none;
+}
+.nav-local li {
+  border-bottom: 1px solid #5a5a5a;
+}
+
+
 
 /*
 .cse-search-box * {
@@ -330,8 +361,8 @@ body {
 
 
 ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
-    /* margin: 0; */
+  display: block;
+  /* margin: 0; */
 }
 
 .navbar-form {
