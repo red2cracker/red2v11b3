@@ -163,6 +163,17 @@ body {
   background-color: #f8f8f8;
   padding: 0px;
 }
+.con-row .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.con-row .row > .col-md-9,
+.con-row .row > .col-md-3 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
 
 /*
 .cse-search-box * {
