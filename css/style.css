@@ -439,6 +439,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 
+/* 창 크기 늘릴시 작은 로고 제거 및 왼쪽 패딩 제거 */
+.navbar-header{
+  display: none;
+}
+.navbar > .container {
+  padding-left: 0px;
+}
+.navbar-collapse {
+  padding-left: 0px;
+}
+
+
+
+
 }
 
 
