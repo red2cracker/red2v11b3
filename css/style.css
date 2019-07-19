@@ -168,9 +168,13 @@ body {
   margin-left: 0px;
 }
 .con-row .row > .col-content,
-.con-row .row > .col-sidebar {
+.con-row .row > .col-sidebar,
+.con-row .row > .col-content-inner {
   padding-right: 0px;
   padding-left: 0px;
+}
+.col-content-inner {
+  background-color: #ccd;
 }
 
 
