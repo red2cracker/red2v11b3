@@ -385,8 +385,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   float: left;
 }
 
+
+.navbar-collapse .navbar-nav > li:first-child {
+  border-left: 1px solid #000;
+}
+.navbar-collapse .navbar-nav > li {
+  border-right: 1px solid #000;
 }
 
+
+}
+/* 끝 */
 
 @media (min-width: 992px) {
 
