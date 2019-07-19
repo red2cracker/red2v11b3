@@ -385,6 +385,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   float: left;
 }
 
+/*
+.navbar-collapse .navbar-nav > li:after {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  content: "";
+  color: #fff;
+  height: 35px;
+  border-left: 1px solid #000;
+}
+*/
+
 
 .navbar-collapse .navbar-nav > li:first-child {
   border-left: 1px solid #000;
