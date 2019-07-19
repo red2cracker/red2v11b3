@@ -468,7 +468,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   padding-left: 0px;
 }
 .navbar-collapse {
-  padding-left: 26.6%; /* 원래 25% 였으나 본문에 맞게 조정 */
+  padding-left: 26.5%; /* 원래 25% 였으나 본문에 맞게 조정 */
 }
 
 
