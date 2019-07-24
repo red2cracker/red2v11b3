@@ -319,6 +319,61 @@ body {
 }
 
 
+/* SNS 링크 */
+.sns-link {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  /*border: 1px solid red;*/
+  float: left;
+  width: 100%;
+}
+/*
+.sns-link:before {
+  content: "";
+  clear: both;
+  display: block;
+}
+*/
+.sns-link li {
+  /*display: inline-block;*/
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  float: left;
+}
+.sns-link li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+}
+.sns-link li:hover {
+  opacity: 0.6;
+}
+.sns-link li:last-child a {
+  margin-right: 0px;
+}
+.sns-link .sns-logo-twitter {
+  background-image: url(../img/sns/sns_logo_twitter.png);
+}
+.sns-link .sns-logo-facebook {
+  background-image: url(../img/sns/sns_logo_facebook.png);
+}
+.sns-link .sns-logo-naver-blog {
+  background-image: url(../img/sns/sns_logo_naver_blog.png);
+}
+.sns-link .sns-logo-youtube {
+  background-image: url(../img/sns/sns_logo_youtube.png);
+}
+.sns-link .sns-logo-discord {
+  background-image: url(../img/sns/sns_logo_discord.png);
+}
+.sns-link .sns-logo-moddb {
+  background-image: url(../img/sns/sns_logo_moddb.png);
+}
+
+
+
 @media (max-width: 767px) {
 
 /* 모바일 검색창 아래로 내려가는 버그 */
