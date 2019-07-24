@@ -108,13 +108,17 @@ body {
 }
 
 /* SVG는 버그가 많아서 PNG 사용 */
+/* IE10 이하는 사용자가 적어서 IE11부터 지원하는 SVG 쓴다 */
 .navbar-brand {
-  background-image: url("../img/red2mtnk_small_sharp02.png");
+  background-image: url("../img/svg/red2mtnk_mobile.svg"); /* ../img/red2mtnk_small_sharp02.png */
   background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-position: 0px 0px;
   padding-left: 65px; /* 70px */
   font-family: 'Open Sans', sans-serif;
   letter-spacing: -1px;
   /* font-size: 18px !important; */
+  /* image-rendering: optimizeQuality; */
 }
 .navbar-brand span {
   font-weight: 700;
@@ -448,8 +452,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   /*padding-bottom: 10px !important;*/
   padding-left: 102px;
   padding-right: 15px;
-  background-image: url(../img/red2mtnk_large_sharp01.png);
+  background-image: url(../img/svg/red2mtnk.svg); /* ../img/red2mtnk_large_sharp01.png */
   background-repeat: no-repeat;
+  background-size: 92px 92px; /* contain */
+  background-position: 0px 0px;
   display: inline-block;
   /*border: 1px solid #f00;*/
 }
