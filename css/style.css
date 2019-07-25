@@ -105,6 +105,7 @@ body {
 
 .navbar {
   border: 0px;
+  margin-bottom: 0px; /* 아래 마진 제거 */
 }
 
 /* SVG는 버그가 많아서 PNG 사용 */
@@ -163,6 +164,10 @@ body {
 }
 */
 
+.con-row-outer {
+  background-color: #f2f2f2;
+  padding: 20px 0px;
+}
 
 .con-row {
   background-color: #f8f8f8;
@@ -179,7 +184,7 @@ body {
   padding-left: 0px;
 }
 .col-content-inner {
-  background-color: #ccd;
+  background-color: #fff; /* #ccd*/
 }
 
 
@@ -297,7 +302,8 @@ body {
 .footer {
   text-align: center;
   background-color: #f8f8f8; /* #f8f8f8 */
-  margin-top: 20px;
+  /* 위 마진 제거 */
+  margin-top: 0px; /* 20px */
 }
 .footer .list-inline {
   margin-top: 10px;
@@ -496,6 +502,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-image: url(../img/main_image.png);
   background-repeat: no-repeat;
   background-position: top right;
+  /*border-top-right-radius: 5px;*/
 }
 /* 헤더 로고 */
 .header-title {
