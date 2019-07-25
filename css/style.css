@@ -321,11 +321,11 @@ body {
 
 /* SNS 링크 */
 .sns-link {
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   list-style: none;
   /*border: 1px solid red;*/
-  float: left;
+  /*float: left;*/
   width: 100%;
 }
 /*
@@ -336,10 +336,10 @@ body {
 }
 */
 .sns-link li {
-  /*display: inline-block;*/
+  display: inline-block;
   background-repeat: no-repeat;
   text-indent: -9999px;
-  float: left;
+  /*float: left;*/
 }
 .sns-link li a {
   display: block;
@@ -373,6 +373,10 @@ body {
 }
 .sns-link .sns-logo-jcwc {
   background-image: url(../img/sns/sns_logo_jcwc.png);
+}
+
+.footer-contact {
+  margin-top: 10px;
 }
 
 
