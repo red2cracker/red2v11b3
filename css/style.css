@@ -296,19 +296,20 @@ body {
 
 .footer {
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #f8f8f8; /* #f8f8f8 */
   margin-top: 20px;
 }
 .footer .list-inline {
   margin-top: 10px;
 }
 
-.footer .list-inline a {
+/* .footer .list-inline a */
+.footer a {
   color: #337ab7;
   text-decoration: none;
 }
-.footer .list-inline a:hover,
-.footer .list-inline a:focus {
+.footer a:hover,
+.footer a:focus {
   color: #f00;
   text-decoration: none;
 }
@@ -340,17 +341,19 @@ body {
   background-repeat: no-repeat;
   text-indent: -9999px;
   /*float: left;*/
+  margin-right: 6px;
+  border-radius: 3px;
 }
 .sns-link li a {
   display: block;
   width: 30px;
   height: 30px;
-  margin-right: 6px;
+  /*margin-right: 6px;*/
 }
 .sns-link li:hover {
   opacity: 0.6;
 }
-.sns-link li:last-child a {
+.sns-link li:last-child {
   margin-right: 0px;
 }
 .sns-link .sns-logo-twitter {
