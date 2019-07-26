@@ -482,6 +482,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 
+
+
 }
 /* 끝 */
 
@@ -556,7 +558,24 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 
+@media (max-width: 1199px) {
+
+.con-header,
+.navbar > .container,
+.con-row {
+  width: 100%;
+}
+
+}
+
 @media (min-width: 1200px) {
+
+.con-header,
+.navbar > .container,
+.con-row {
+  width: 1170px;
+}
+
 
 }
 
