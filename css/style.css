@@ -170,7 +170,7 @@ body {
 }
 
 .con-row {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   padding: 0px;
 }
 .con-row .row {
@@ -185,6 +185,7 @@ body {
 }
 .col-content-inner {
   background-color: #fff; /* #ccd*/
+  height: 70vh; /* 테스트 전용 */
 }
 
 
