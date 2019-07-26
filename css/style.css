@@ -312,7 +312,7 @@ body {
 
 /* .footer .list-inline a */
 .footer a {
-  color: #337ab7;
+  color: #0081f3; /* #337ab7; */
   text-decoration: none;
 }
 .footer a:hover,
