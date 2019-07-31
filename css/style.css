@@ -402,13 +402,13 @@ body {
   top: 1px;
 }
 
-.navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
   font-size: 15px;
-  color: #fff !important;
+  color: #fff;
 }
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-  color: #f00 !important;
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #f00;
 }
 
 
