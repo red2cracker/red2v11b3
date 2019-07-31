@@ -582,6 +582,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   width: 1170px;
 }
 
+.col-content-inner {
+  box-shadow: 2px 2px 0 0 rgba(0,0,0,0.07); /* 게임스팟 코드 */
+}
+
 
 }
 
