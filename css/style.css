@@ -462,7 +462,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   padding: 0px;
 }
 .navbar-form .form-control {
-  width: 120px;
+  width: 115px; /*120px;*/
 }
 
 /* 태블릿부터 위 아래 패딩 */
