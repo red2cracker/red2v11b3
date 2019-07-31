@@ -403,12 +403,13 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  font-size: 18px; /* 15px; */
-  color: #fff;
+  font-size: 17px; /* 15px; */
+  color: #fff !important;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-  color: #f00;
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:active {
+  color: #f00 !important;
 }
 
 
