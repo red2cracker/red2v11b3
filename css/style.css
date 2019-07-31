@@ -250,11 +250,11 @@ body {
 .cse-keyword {
   border-radius: 0px;
   padding: 6px 6px;
-  border-radius: 3px 0px 0px 3px;
+  /*border-radius: 3px 0px 0px 3px;*/
 }
 .cse-search-button {
-  /*border-radius: 0px;*/
-  border-radius: 0px 3px 3px 0px;
+  border-radius: 0px;
+  /*border-radius: 0px 3px 3px 0px;*/
   color: #fff;
   background-color: #2567FC;
   border-color: #2567FC;
