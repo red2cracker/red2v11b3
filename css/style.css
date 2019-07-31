@@ -119,6 +119,7 @@ body {
   padding-left: 55px; /* 65px 70px */
   font-family: 'Open Sans', sans-serif;
   letter-spacing: -1px;
+  font-size: 22px
   /* font-size: 18px !important; */
   /* image-rendering: optimizeQuality; */
 }
