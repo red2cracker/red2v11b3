@@ -412,6 +412,18 @@ body {
   color: #f00 !important;
 }
 
+.dropdown-menu > li > a {
+  padding: 7px 20px !important;
+}
+
+.cse-search-box {
+  border: none;
+  box-shadow: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 15px 15px 15px;
+}
+
 
 }
 
