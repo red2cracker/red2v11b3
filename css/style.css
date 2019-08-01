@@ -414,6 +414,7 @@ body {
 
 .dropdown-menu > li > a {
   padding: 7px 20px !important;
+  font-size: 15px;
 }
 
 .cse-search-box {
@@ -427,6 +428,7 @@ body {
 .navbar-collapse {
   box-shadow: none;
 }
+
 
 
 }
