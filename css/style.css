@@ -424,6 +424,10 @@ body {
   padding: 0px 15px 15px 15px;
 }
 
+.navbar-collapse {
+  box-shadow: none;
+}
+
 
 }
 
