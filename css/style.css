@@ -438,8 +438,8 @@ body {
 .navbar-nav {
   margin: 7.5px -15px 0px -15px;
 }
-
-a[aria-expanded="true"] .caret {
+/* 모바일에서 주 메뉴 클릭시 화살표 뒤집힘 */
+.dropdown > a[aria-expanded="true"] .caret {
   transform: rotate(180deg);
 }
 
