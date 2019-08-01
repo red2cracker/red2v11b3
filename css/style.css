@@ -405,6 +405,7 @@ body {
 .navbar-inverse .navbar-nav > li > a {
   font-size: 17px; /* 15px; */
   color: #fff !important;
+  /*text-shadow: 2px 2px 3px #000;*/
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus,
@@ -436,6 +437,10 @@ body {
 /* 주 메뉴 아래 마진 제거 */
 .navbar-nav {
   margin: 7.5px -15px 0px -15px;
+}
+
+a[aria-expanded="true"] .caret {
+  transform: rotate(180deg);
 }
 
 
