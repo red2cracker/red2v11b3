@@ -426,11 +426,16 @@ body {
   box-shadow: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 0px 15px 15px 15px;
+  padding: 10px 15px 15px 15px;
 }
 
+/* 주 메뉴 아래 외곽선 제거 */
 .navbar-collapse {
   box-shadow: none;
+}
+/* 주 메뉴 아래 마진 제거 */
+.navbar-nav {
+  margin: 7.5px -15px 0px -15px;
 }
 
 
