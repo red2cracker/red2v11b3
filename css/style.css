@@ -420,6 +420,12 @@ body {
   padding: 7px 20px !important;
   font-size: 15px;
   border-bottom: 1px solid #000;
+  color: #fff !important;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:active {
+  color: #f00 !important;
 }
 
 .cse-search-box {
