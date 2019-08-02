@@ -112,7 +112,7 @@ body {
 /* PNG 축소시 너무 선명해지는 버그 때문에 */
 /* IE10 이하는 사용자가 적어서 IE11부터 지원하는 SVG 쓴다 */
 .navbar-brand {
-  background-image: url("../img/svg/red2mtnk_mobile.svg"); /* ../img/red2mtnk_small_sharp02.png */
+  background-image: url("../img/svg/red2mtnk_mobile02.svg"); /* ../img/red2mtnk_small_sharp02.png */
   background-repeat: no-repeat;
   background-size: 50px 50px;
   background-position: 0px 0px;
