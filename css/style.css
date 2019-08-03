@@ -108,6 +108,31 @@ body {
   margin-bottom: 0px; /* 아래 마진 제거 */
 }
 
+/* 모바일 토글메뉴 */
+.navbar-toggle {
+  padding: 12px 13px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+/*
+.navbar-toggle .icon-bar:hover {
+  background-color: #fff;
+}
+*/
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+  border-color: #f00;
+}
+/* https://stackoverflow.com/questions/25695900/toggle-icon-bar-color-change-on-hover-using-bootstrap */
+.navbar-toggle:hover .icon-bar {
+  background-color: #f00;
+}
+
+
 /* SVG는 버그가 많아서 PNG 사용 */
 /* PNG 축소시 너무 선명해지는 버그 때문에 */
 /* IE10 이하는 사용자가 적어서 IE11부터 지원하는 SVG 쓴다 */
@@ -421,7 +446,7 @@ body {
   font-size: 15px;
   border-bottom: 1px solid #000;
   color: #fff !important;
-  background-color: #2e2d2d;
+  /*background-color: #2e2d2d;*/
 }
 /* https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Colors/Color_picker_tool */
 .dropdown-menu > li > a:hover,
