@@ -124,7 +124,7 @@ body {
 }
 */
 .navbar-inverse .navbar-toggle:hover {
-  background-color: transparent;
+  background-color: #2f3439; /*transparent;*/
   border-color: #f00;
 }
 /* https://stackoverflow.com/questions/25695900/toggle-icon-bar-color-change-on-hover-using-bootstrap */
