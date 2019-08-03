@@ -475,7 +475,10 @@ body {
 .dropdown > a[aria-expanded="true"] .caret {
   transform: rotate(180deg);
 }
-
+/* 모바일에서 주 메뉴 클릭시 굵게 */
+.dropdown > a[aria-expanded="true"] {
+  font-weight: bold;
+}
 
 
 }
