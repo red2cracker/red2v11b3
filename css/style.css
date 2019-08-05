@@ -420,6 +420,7 @@ body {
 .footer-copy a {
   background-image: url(../img/fav/red2fav_16.png);
   background-repeat: no-repeat;
+  background-position: center left;
   padding-left: 20px;
 }
 
