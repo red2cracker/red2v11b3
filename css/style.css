@@ -328,6 +328,10 @@ body {
 
 /* .icon-bar End */
 
+.banner-jcwc {
+  display: none;
+}
+
 .footer {
   text-align: center;
   background-color: #f8f8f8; /* #f8f8f8 */
@@ -575,6 +579,35 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 
+.banner-jcwc {
+  display: block;
+  margin-top: 15px;
+  width: 100%;
+  height: 30px;
+  background-color: #850000; /*#6a0100;*/ /*#7b0300;*/
+}
+.banner-jcwc  a {
+  display: block;
+  background-image: url(../img/sns/sns_logo_jcwc.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 40px;
+  line-height: 30px;
+  color: #fff;
+  /*text-shadow: 2px 2px 2px #000;*/
+  text-decoration: none;
+  /*font-size: 17px;*/
+  /*word-break: break-all;*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.banner-jcwc  a:hover,
+.banner-jcwc  a:active,
+.banner-jcwc  a:focus {
+  color: #f00;
+  text-decoration: underline;
+}
 
 }
 /* 끝 */
