@@ -24,6 +24,7 @@
   background-color: #e6e6e6;
   margin-bottom: 15px;
   font-size: 16px;
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.07);
 }
 #ol_before h2, #ol_idlabel, #ol_pwlabel {
   display: none;
@@ -53,11 +54,13 @@
   background-color: #007bff;
   margin-bottom: 15px;
   font-size: 19px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 #ol_submit:hover,
 #ol_submit:focus,
 #ol_submit:active {
   color: #f00;
+  box-shadow: 0px 8px 15px rgba(0, 0, 255, 0.2);
   /*background-color: #2550fc;*/
   /*cursor: pointer;*/
 }
