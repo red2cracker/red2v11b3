@@ -36,8 +36,13 @@
   color: #f00;
   text-decoration: none;
 }
-.latest-col > div > div > h2 > a:before {
+.latest-col:first-child > div > div > h2 > a:before {
   content: "\f15b";
+  font-family: FontAwesome;
+  padding-right: 5px;
+}
+.latest-col:last-child > div > div > h2 > a:before {
+  content: "\f130";
   font-family: FontAwesome;
   padding-right: 5px;
 }
