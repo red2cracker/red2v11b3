@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+.latest-row {
+  
+}
+.latest-row > div:first-child {
+  border: 1px solid #f00;
+  padding: 0px 15px 0px 15px;
+}
+.latest-row > div:last-child {
+  border: 1px solid #0f0;
+  padding: 0px 15px 0px 15px;
+}
+
+.latest-col {
+  border: 1px solid #000;
+}
+.latest-col > div > div {
+  background-color: #ddd;
+}
+.latest-col > div > div > h2 {
+  margin: 0px;
+}
+
+
+
+@media (min-width: 992px) {
+
+.latest-row > div:first-child {
+  padding: 0px 15px 0px 0px;
+}
+.latest-row > div:last-child {
+  padding: 0px 0px 0px 15px;
+}
+
+}
+
+
+

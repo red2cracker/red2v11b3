@@ -421,12 +421,16 @@ body {
 .footer-contact {
   margin-top: 10px;
 }
+/*
 .footer-copy a {
   background-image: url(../img/fav/red2fav_16.png);
   background-repeat: no-repeat;
   background-position: center left;
   padding-left: 20px;
 }
+*/
+
+
 
 /* 태블릿 바로 직전 미디어 쿼리 */
 @media (max-width: 767px) {
