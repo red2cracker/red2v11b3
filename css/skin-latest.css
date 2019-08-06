@@ -44,7 +44,7 @@
 
 
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
 .latest-row > div:first-child {
   padding: 0px 10px 0px 0px;
