@@ -36,15 +36,15 @@
   color: #f00;
   text-decoration: none;
 }
-.latest-col:first-child > div > div > h2 > a:before {
-  content: "\f15b";
+.latest-col > div > div > h2 > a:before {
   font-family: FontAwesome;
   padding-right: 5px;
 }
-.latest-col:last-child > div > div > h2 > a:before {
+.latest-line-1 .latest-col:first-child > div > div > h2 > a:before {
+  content: "\f15b";
+}
+.latest-line-1 .latest-col:last-child > div > div > h2 > a:before {
   content: "\f130";
-  font-family: FontAwesome;
-  padding-right: 5px;
 }
 
 
