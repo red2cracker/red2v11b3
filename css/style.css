@@ -192,7 +192,7 @@ body {
 
 .con-row-outer {
   background-color: #f2f2f2;
-  /*padding: 20px 0px;*/
+  padding: 20px 0px; /* 모바일에서 본문 위, 아래 패딩 추가 */
 }
 
 .con-row {
