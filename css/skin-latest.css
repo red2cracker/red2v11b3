@@ -14,6 +14,7 @@
 }
 
 .latest-col {
+  position: relative;
   /*border: 1px solid #000;*/
 }
 .latest-col > div > div {
@@ -25,6 +26,7 @@
   font-size: 17px;
   font-weight: bold;
   background: #fafafa;
+  border-bottom: 1px solid #e2e2e2;
 }
 .latest-col > div > div > h2 > a {
   display: block;
@@ -45,6 +47,72 @@
 }
 .latest-line-1 .latest-col:last-child > div > div > h2 > a:before {
   content: "\f130";
+}
+
+.latest-col a.latest-more {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  padding: 10px;
+  color: #253dbe;
+}
+.latest-col a.latest-more:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+.latest-col ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.latest-col ul li {
+  position: relative;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+.latest-col ul li:last-child {
+  border-bottom: 0px;
+}
+
+.latest-col ul li .latest-link a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  /* 추가 */
+  width: calc(100% - 85px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.latest-col ul li .latest-link a:hover{
+  color: #f00;
+  text-decoration: none;
+}
+
+.latest-col ul li .latest-cmt a {
+  position: absolute;
+  top: 0px;
+  right: 52px;
+  display: block;
+  padding: 5px;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.latest-col ul li .latest-cmt a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+.latest-col ul li .latest-date {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: #888;
 }
 
 
