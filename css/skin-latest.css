@@ -65,6 +65,20 @@
   content: "\f0ad";
 }
 
+.latest-line-4 .latest-col:first-child > div > div > h2 > a:before {
+  content: "\f15b";
+}
+.latest-line-4 .latest-col:last-child > div > div > h2 > a:before {
+  content: "\f15b";
+}
+
+.latest-line-5 .latest-col:first-child > div > div > h2 > a:before {
+  content: "\f11b";
+}
+.latest-line-5 .latest-col:last-child > div > div > h2 > a:before {
+  content: "\f03d";
+}
+
 .latest-col a.latest-more {
   position: absolute;
   top: 5px;
