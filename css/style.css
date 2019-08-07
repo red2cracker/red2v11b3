@@ -614,7 +614,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   text-decoration: underline;
 }
 
-
+/* 본문에 패딩 추가 */
 .col-content-inner {
   padding: 15px !important;
 }
