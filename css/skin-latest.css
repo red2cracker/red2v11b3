@@ -20,13 +20,13 @@
 }
 .latest-col > div > div {
   /*background-color: #ddd;*/
-  border: 1px solid #c6cacc;
+  /*border: 1px solid #c6cacc;*/
 }
 .latest-col > div > div > h2 {
   margin: 0px;
   font-size: 17px;
   font-weight: bold;
-  background: #fafafa;
+  background-color: #fafafa;
   border-bottom: 1px solid #e2e2e2;
 }
 .latest-col > div > div > h2 > a {
@@ -102,18 +102,29 @@
   font-size: 16px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
+  line-height: 16px;
 }
+/*
 .latest-col ul li:last-child {
   border-bottom: 0px;
 }
+*/
+/*
+.latest-col ul li:before {
+  content: "•";
+  color: #000;
+  display: inline-block;
+}
+*/
+
 
 .latest-col ul li .latest-link a {
   color: #000;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 5px;
   /* 추가 */
-  width: calc(100% - 85px);
+  width: calc(100% - 95px); /*85px*/
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -146,6 +157,15 @@
   color: #888;
 }
 
+
+
+@media (max-width: 767px) {
+
+.latest-line-1 .latest-col:first-child {
+  margin-top: 20px;
+}
+
+}
 
 
 @media (min-width: 768px) {
