@@ -52,7 +52,7 @@
 }
 
 .latest-line-2 .latest-col:first-child > div > div > h2 > a:before {
-  content: "\f15b";
+  content: "\f086";
 }
 .latest-line-2 .latest-col:last-child > div > div > h2 > a:before {
   content: "\f15b";
@@ -100,6 +100,7 @@
 .latest-col ul li {
   position: relative;
   font-size: 16px;
+  background-color: #fff;
   border-bottom: 1px solid #eee;
 }
 .latest-col ul li:last-child {

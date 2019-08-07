@@ -210,7 +210,7 @@ body {
   padding-left: 0px;
 }
 .col-content-inner {
-  background-color: #fff; /* #ccd*/
+  /*background-color: #fff;*/ /* #ccd*/
   /*height: 70vh;*/ /* 테스트 전용 */
 }
 
@@ -707,7 +707,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 /* PC에서 본문 그림자 추가 */
 .col-content-inner {
-  box-shadow: 2px 2px 0 0 rgba(0,0,0,0.07); /* 게임스팟 코드 */
+  /*box-shadow: 2px 2px 0 0 rgba(0,0,0,0.07);*/ /* 게임스팟 코드 */
 }
 
 
