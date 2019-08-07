@@ -2,7 +2,7 @@
 
 
 .latest-row {
-  
+  width: 100%;
 }
 .latest-row > div:first-child {
   /*border: 1px solid #f00;*/
@@ -15,6 +15,7 @@
 
 .latest-col {
   position: relative;
+  margin-bottom: 20px;
   /*border: 1px solid #000;*/
 }
 .latest-col > div > div {
@@ -47,6 +48,13 @@
 }
 .latest-line-1 .latest-col:last-child > div > div > h2 > a:before {
   content: "\f130";
+}
+
+.latest-line-2 .latest-col:first-child > div > div > h2 > a:before {
+  content: "\f15b";
+}
+.latest-line-2 .latest-col:last-child > div > div > h2 > a:before {
+  content: "\f15b";
 }
 
 .latest-col a.latest-more {

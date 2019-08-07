@@ -211,7 +211,7 @@ body {
 }
 .col-content-inner {
   background-color: #fff; /* #ccd*/
-  height: 70vh; /* 테스트 전용 */
+  /*height: 70vh;*/ /* 테스트 전용 */
 }
 
 
