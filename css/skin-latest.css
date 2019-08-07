@@ -33,7 +33,7 @@
   display: block;
   color: #253dbe;
   text-decoration: none;
-  padding: 14px 20px;
+  padding: 14px 15px; /* 14px 20px; */
 }
 .latest-col > div > div > h2 > a:hover {
   color: #f00;
@@ -109,11 +109,16 @@
   border-bottom: 0px;
 }
 */
+
+/* https://www.w3.org/Style/Examples/007/color-bullets.en.html */
 /*
 .latest-col ul li:before {
-  content: "•";
+  content: "\2022";
   color: #000;
-  display: inline-block;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0px;
 }
 */
 
@@ -121,10 +126,10 @@
 .latest-col ul li .latest-link a {
   color: #000;
   text-decoration: none;
-  display: inline-block;
-  padding: 8px;
+  display: block;
+  padding: 8px 8px 8px 12px;
   /* 추가 */
-  width: calc(100% - 95px); /*85px*/
+  width: calc(100% - 90px); /*85px*/
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -137,9 +142,9 @@
 .latest-col ul li .latest-cmt a {
   position: absolute;
   top: 0px;
-  right: 52px;
+  right: 57px;
   display: block;
-  padding: 5px;
+  padding: 7px;
   color: #000;
   font-size: 15px;
   font-weight: bold;
@@ -152,7 +157,7 @@
 
 .latest-col ul li .latest-date {
   position: absolute;
-  top: 6px;
+  top: 8px;
   right: 6px;
   color: #888;
 }
