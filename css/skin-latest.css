@@ -43,6 +43,7 @@
   font-family: FontAwesome;
   padding-right: 5px;
 }
+
 .latest-line-1 .latest-col:first-child > div > div > h2 > a:before {
   content: "\f15b";
 }
@@ -55,6 +56,13 @@
 }
 .latest-line-2 .latest-col:last-child > div > div > h2 > a:before {
   content: "\f15b";
+}
+
+.latest-line-3 .latest-col:first-child > div > div > h2 > a:before {
+  content: "\f059";
+}
+.latest-line-3 .latest-col:last-child > div > div > h2 > a:before {
+  content: "\f0ad";
 }
 
 .latest-col a.latest-more {
