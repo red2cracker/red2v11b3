@@ -20,7 +20,7 @@
 }
 .latest-col > div > div {
   /*background-color: #ddd;*/
-  /*border: 1px solid #c6cacc;*/
+  border: 1px solid #c6cacc;
 }
 .latest-col > div > div > h2 {
   margin: 0px;
@@ -69,7 +69,7 @@
   content: "\f05a";
 }
 .latest-line-4 .latest-col:last-child > div > div > h2 > a:before {
-  content: "\f15b";
+  content: "\f085";
 }
 
 .latest-line-5 .latest-col:first-child > div > div > h2 > a:before {
@@ -102,13 +102,12 @@
   font-size: 16px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  line-height: 16px;
+  /*line-height: 16px;*/
 }
-/*
 .latest-col ul li:last-child {
   border-bottom: 0px;
 }
-*/
+
 
 /* https://www.w3.org/Style/Examples/007/color-bullets.en.html */
 /*
@@ -136,7 +135,7 @@
 }
 .latest-col ul li .latest-link a:hover{
   color: #f00;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .latest-col ul li .latest-cmt a {
