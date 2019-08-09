@@ -7,6 +7,10 @@
   padding-bottom: 10px;
 }
 
+#ol_before_m a {
+  padding: 10px 0px;
+}
+
 #ol_before_m a:link,
 #ol_before_m a:visited {
 	color: #fff;
