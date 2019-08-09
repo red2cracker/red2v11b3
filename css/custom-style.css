@@ -108,6 +108,14 @@ body {
   margin-bottom: 0px; /* 아래 마진 제거 */
 }
 
+.navbarFixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+
 /* 모바일 토글메뉴 */
 .navbar-toggle {
   padding: 12px 13px;
