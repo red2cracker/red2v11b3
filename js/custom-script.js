@@ -1,5 +1,6 @@
 $(function(){
 
+/* https://www.codingfactory.net/10745 */
 var navbarOffset = $( '.navbar' ).offset();
 //alert(navbarOffset.top);
 
