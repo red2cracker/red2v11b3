@@ -696,6 +696,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 
+/* 스크롤 내리면 랩탑 및 PC에서 로고 보이게 */
+.navbar-fixed .navbar-header{
+  display: block;
+  margin-left: 15px;
+}
+
 
 
 }
