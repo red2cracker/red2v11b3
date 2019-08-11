@@ -6,10 +6,10 @@ var navbarOffset = $( '.navbar' ).offset();
 
 $( window ).scroll(function() {
   if ( $( document ).scrollTop() > navbarOffset.top ) {
-    $( '.navbar' ).addClass( 'navbarFixed' );
+    $( '.navbar' ).addClass( 'navbar-fixed' );
   }
   else {
-    $( '.navbar' ).removeClass( 'navbarFixed' );
+    $( '.navbar' ).removeClass( 'navbar-fixed' );
   }
 });
 
