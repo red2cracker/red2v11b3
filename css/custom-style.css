@@ -722,7 +722,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .con-header,
 .navbar > .container,
 .con-row {
-  width: 1170px;
+  width: 1280px; /*1170px;*/
 }
 
 /* PC에서 본문 그림자 추가 */
