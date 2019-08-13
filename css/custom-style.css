@@ -627,6 +627,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   padding: 15px !important;
 }
 
+/* 스크롤시 본문 패딩 추가 */
+.con-row-outer-padding {
+  padding: 70px 0px 20px 0px;
+}
+
+
+
 }
 /* 끝 */
 
