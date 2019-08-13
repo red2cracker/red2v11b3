@@ -439,6 +439,11 @@ body {
 }
 */
 
+/* 스크롤시 본문 패딩 추가 */
+.con-row-outer-padding {
+  padding: 50px 0px 20px 0px;
+}
+
 
 
 /* 태블릿 바로 직전 미디어 쿼리 */
