@@ -126,26 +126,26 @@
   color: #000;
   text-decoration: none;
   display: block;
-  padding: 8px 8px 8px 12px;
+  padding: 8px 8px 8px 6px; /*12px;*/
   /* 추가 */
   width: calc(100% - 90px); /*85px*/
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  /*text-overflow: ellipsis;*/
 }
 .latest-col ul li .latest-link a:hover{
   color: #f00;
-  text-decoration: underline;
+  text-decoration: none; /*underline;*/
 }
 
 .latest-col ul li .latest-cmt a {
   position: absolute;
-  top: 0px;
+  top: 3px;
   right: 57px;
   display: block;
   padding: 7px;
   color: #000;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-decoration: none;
 }
